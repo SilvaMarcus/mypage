@@ -1,0 +1,197 @@
+
+/* Gerais */
+body{
+     font-family: 'Roboto', sans-serif;
+       background-color: rgb(16, 1, 29);
+       color: #ffff; 
+       box-sizing: border-box;
+}
+
+.row{
+     margin: 1.25rem;
+}
+
+/* ======== header-navbar========== */
+#logo{
+     width: 2.4rem;
+     margin-left: 1.1rem;
+}
+ /* Remove border menu ham*/
+.navbar-toggler {
+     border: rgb(255, 255, 255) ;
+     color: transparent;
+ }
+ /* Linhas menu hamburger*/
+ .toggler-icon{
+     width: 1.8rem;
+     height: .188rem;
+     background-color: #777676c7;
+     display: block;
+     transition: all .2s;
+ } 
+ /*=== Add espaço entre as linhas */
+ .middle-bar{
+     margin: .313rem auto;
+ }
+ /*=starts quando navbar é aberta (OPEN) == */
+ .navbar-toggler .top-bar {
+     transform: rotate(45deg);
+     transform-origin: 10% 10%;
+ }
+ .navbar-toggler .middle-bar {
+     opacity: 0;
+     filter: alpha(opacity=0);
+ }
+ .navbar-toggler .bottom-bar {
+     transform: rotate(-45deg);
+     transform-origin: 10% 90%;
+ }/* (END) */
+
+ /* QUANDO FECHA (closed) */
+ .navbar-toggler.collapsed .top-bar {
+     transform: rotate(0);
+     
+ }
+ 
+ .navbar-toggler.collapsed .middle-bar {
+     opacity: 1;
+     filter: alpha(opacity=100);
+ }
+ 
+ .navbar-toggler.collapsed .bottom-bar {
+     transform: rotate(0);
+      
+ }/*  (END) */
+ 
+ /* Color of Toggler when collapsed */
+ .navbar-toggler.collapsed .toggler-icon {
+     background-color: #A400CC;
+ } 
+ 
+
+/*  menu toggler links */
+.navbar-nav { 
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+   
+}
+.nav-link {
+ font-size: 1rem;
+ margin: .5rem;
+ color: rgb(255, 255, 255);;
+}
+.nav-link:hover {
+     color:  #9217b1;
+}
+.navbar{
+     background-color: rgb(16, 1, 29);
+     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+     
+}
+.dropdown-menu {
+     background-color: rgb(16, 1, 29);
+}
+.dropdown-item{
+     color: #ffff;
+}
+
+
+
+
+
+/* ==============  main - About me area======== */
+.main{
+    margin-top: 5em;
+}
+
+.about-me{
+    margin-top: 4em;
+    padding: 1em;
+  
+}
+
+.about-me span {
+    color: rgb(2, 220, 220);
+}
+
+.about-me h3{
+    font-size: 1.8em;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: .5em;
+}
+.about-me > p {
+    font-size: .9em;
+    font-weight: 600;
+    color: rgb(204, 204, 204);
+}
+
+.conheça{
+    margin-top: 3em;
+    margin-left: 25px;
+}
+
+.conheça > p {
+    font-size: .8em;
+    font-weight: 800;
+    color: rgba(212, 201, 212, 0.846);
+    letter-spacing: 1px;
+}
+
+ .conheça > .button {
+    text-decoration: none;
+    color: #db3eb1;
+    border: 2px solid #db3eb1;
+    border-radius: .125rem;
+    padding:  .125rem .563rem;
+    font-size: 1em;
+    letter-spacing:.25em;
+    cursor: pointer;
+    font-weight: bold;
+    filter: drop-shadow(0 0 10px #db3eb1) drop-shadow(0 0 50px #db3eb1) contrast(1) brightness(1);
+    transition: .5s;
+
+  }
+  
+  .conheça > .button:hover {
+    color: rgba(231, 231, 231, 0.617);
+    background-color: #db3eb1;
+    filter: drop-shadow(0 0 1.3rem #db3eb1) contrast(2) brightness(2);
+  }
+
+.icone {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.home-pag  .col-xl-12 {
+    margin-top: 10em;
+    text-align: center; 
+}
+
+.home-pag h5 {
+    font-size: 1.1em;
+}
+
+/*  ============ SECTION PORTIFOLIO */
+
+.portfolio{
+    margin-top: 3em;
+}
+
+.title{
+    text-align: center;
+    padding: .6rem;
+}
+
+.title:after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: .13rem;
+    background: #6d2db0;
+    margin: .13rem auto;
+  }
+
