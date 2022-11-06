@@ -1,10 +1,17 @@
 
+
 /* Gerais */
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
      font-family: 'Roboto', sans-serif;
        background-color: rgb(16, 1, 29);
        color: #ffff; 
        box-sizing: border-box;
+       overflow-x: hidden;
 }
 
 .row{
@@ -204,7 +211,7 @@ body{
   /* Projects Portfolio section   */
 
   .projects-section {
-    margin-top: 20rem;
+    margin-top: 30rem;
 
  
   }
@@ -280,3 +287,6 @@ font-weight: 700;
     letter-spacing: .2rem;
 
 }
+
+
+
