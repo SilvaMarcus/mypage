@@ -22,18 +22,17 @@
  
    .projects-section {
     margin-top: 18rem;
-
    }
                                                                                      
  .projects-container {
-     width: 90%;
+     max-width: 80rem;
      margin: auto;
      display: flex;
      flex-direction: row;
      flex-wrap: wrap;
      align-items: center;
      justify-content: space-evenly;
-     padding: 7rem;
+     padding: 6rem;
  }
  
  
@@ -58,13 +57,13 @@
  .project-image {
      width: 100%;
      margin: auto;
-     padding: .2rem;
+
  }
 
  .project-image img {
-     width: 280px;
-     padding: .8rem;
-     transition: .4s;
+     width: 300px;
+     padding: .4rem;
+     transition: .5s;
  }
  .card:hover img {
      padding: .0rem;
