@@ -1,0 +1,111 @@
+
+
+/*  Configurações Gerais  ==Reset==*/
+
+
+
+
+html{
+     scroll-behavior: smooth;
+ }
+ 
+ body{
+      font-family: 'Roboto', sans-serif;
+        background-color: rgb(16, 1, 29);
+        color: #ffff; 
+        box-sizing: border-box;
+        overflow-x: hidden;
+ }
+ 
+ 
+
+.row{
+     margin: 1.25rem;
+}
+
+/* ======== header-navbar========== */
+#logo{
+     width: 2.4rem;
+     margin-left: 1.1rem;
+}
+ /* Remove border menu ham*/
+.navbar-toggler {
+     border: rgb(255, 255, 255) ;
+     color: transparent;
+ }
+ /* Linhas menu hamburger*/
+ .toggler-icon{
+     width: 1.8rem;
+     height: .188rem;
+     background-color: #777676c7;
+     display: block;
+     transition: all .2s;
+ } 
+ /*=== Add espaço entre as linhas */
+ .middle-bar{
+     margin: .313rem auto;
+ }
+ /*=starts quando navbar é aberta (OPEN) == */
+ .navbar-toggler .top-bar {
+     transform: rotate(45deg);
+     transform-origin: 10% 10%;
+ }
+ .navbar-toggler .middle-bar {
+     opacity: 0;
+     filter: alpha(opacity=0);
+ }
+ .navbar-toggler .bottom-bar {
+     transform: rotate(-45deg);
+     transform-origin: 10% 90%;
+ }/* (END) */
+
+
+ /* QUANDO FECHA (closed) */
+ .navbar-toggler.collapsed .top-bar {
+     transform: rotate(0);
+ }
+ 
+ .navbar-toggler.collapsed .middle-bar {
+     opacity: 1;
+     filter: alpha(opacity=100);
+ }
+ 
+ .navbar-toggler.collapsed .bottom-bar {
+     transform: rotate(0);
+      
+ }/*  (END) */
+ 
+ /* Color of Toggler when collapsed */
+ .navbar-toggler.collapsed .toggler-icon {
+     background-color: #A400CC;
+ } 
+ 
+
+/*  menu toggler links */
+.navbar-nav { 
+     display: flex;
+     flex-direction: row;
+     justify-content: center;  
+}
+.nav-link {
+    font-weight: 700;
+    font-size: .8rem;
+    margin:  .5rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+     color:   #db3eb1;
+}
+.navbar{
+     background-color: rgba(16, 1, 29, 0.93);
+     border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
+}
+.dropdown-menu {
+     background-color: rgb(16, 1, 29);
+}
+.dropdown-item{
+     color: #ffff;
+}
+

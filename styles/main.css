@@ -1,0 +1,74 @@
+
+/* ==============  main - About me area======== */
+.main{
+     margin-top: 5em;
+ }
+ 
+ .about-me{
+     margin-top: 4em;
+     padding: 1em;
+   
+ }
+ 
+ .about-me span {
+     color: rgb(2, 220, 220);
+ }
+ 
+ .about-me h3{
+     font-size: 1.8em;
+     font-weight: 900;
+     letter-spacing: 2px;
+     margin-bottom: .5em;
+ }
+ .about-me > p {
+     font-size: .9em;
+     font-weight: 600;
+     color: rgb(204, 204, 204);
+ }
+ 
+ .conheça{
+     margin-top: 3em;
+     margin-left: 25px;
+ }
+ 
+ .conheça > p {
+     font-size: .8em;
+     font-weight: 800;
+     color: rgba(212, 201, 212, 0.846);
+     letter-spacing: 1px;
+ }
+ 
+  .conheça > .button {
+     text-decoration: none;
+     color: #db3eb1;
+     border: 2px solid #db3eb1;
+     border-radius: .125rem;
+     padding:  .125rem .563rem;
+     font-size: 1em;
+     letter-spacing:.25em;
+     cursor: pointer;
+     font-weight: bold;
+     filter: drop-shadow(0 0 10px #db3eb1) drop-shadow(0 0 50px #db3eb1) contrast(1) brightness(1);
+     transition: .5s;
+ 
+   }
+   
+   .conheça > .button:hover {
+     color: rgba(231, 231, 231, 0.617);
+     background-color: #db3eb1;
+     filter: drop-shadow(0 0 1.3rem #db3eb1) contrast(2) brightness(2);
+   }
+ 
+ .icone {
+     width: 1.8rem;
+     height: 1.8rem;
+ }
+ 
+ .home-pag  .col-xl-12 {
+     margin-top: 10em;
+     text-align: center; 
+ }
+ 
+ .home-pag h5 {
+     font-size: 1.1em;
+ }
