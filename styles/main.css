@@ -72,3 +72,22 @@
  .home-pag h5 {
      font-size: 1.1em;
  }
+
+
+
+ /* Titulo das secoes */
+
+.section-title {
+    text-align: center;
+}
+#portfolio-section h2{
+    width: 100%;
+}
+.section-title:after {
+    display: block;
+    content: "";
+    margin: 1.3rem  auto;
+    border-bottom: 1px solid #f9f9f936;
+    width: 15%;
+  }
+
