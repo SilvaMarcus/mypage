@@ -78,6 +78,7 @@
  /* Titulo das secoes */
 
 .section-title {
+    margin: 5rem;
     text-align: center;
 }
 #portfolio-section h2{
