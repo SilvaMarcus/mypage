@@ -21,7 +21,7 @@
    /* Projects Portfolio section   */
  
    .projects-section {
-    margin-top: 25rem;
+    margin-top: 18rem;
    }
                                                                                      
  .projects-container {
@@ -34,7 +34,6 @@
      justify-content: space-evenly;
      padding: 7rem;
    
-    
  }
  
  
@@ -42,7 +41,7 @@
  display: flex;
  flex-direction: column;
  flex-wrap: wrap;
- margin: 1rem .5rem;
+ margin: .5rem .5rem;
  height: 290px;
  min-width: 300px;
  padding: .6rem;
@@ -60,8 +59,8 @@
      width: 100%;
      margin: auto;
      padding: .2rem;
- 
  }
+
  .project-image img {
      width: 280px;
      padding: .8rem;
@@ -91,7 +90,7 @@
  
  
  .projects-section h2 {
-     margin-bottom: 4rem ;
+     margin-bottom: 2rem ;
      text-align: center;
      letter-spacing: .2rem; 
      width: 100%;
