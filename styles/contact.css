@@ -1,0 +1,18 @@
+#contact-section h2 {
+     text-align: center;
+     margin: 5rem 0;
+}
+
+
+
+
+.contact-container lottie-player{
+     margin: auto;
+}
+.section-title:after {
+     display: block;
+     content: "";
+     margin: 1.3rem  auto;
+     border-bottom: 1px solid #f9f9f936;
+     width: 10%;
+   }
