@@ -15,8 +15,12 @@ html{
         overflow-x: hidden;
  }
  
- 
 
+ ::selection {
+    background-color: #8f75af;
+    color: #10011D;
+}
+ 
 .row{
      margin: 1.25rem;
 }
