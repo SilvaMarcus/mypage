@@ -52,6 +52,7 @@
  .card:hover{
      box-shadow: 1px 1px 15px   #db3eb1; ;
      transition: 0.6s;
+     cursor: pointer;
  }
  
  .project-image {

@@ -1,12 +1,10 @@
 
 
 /*  Configurações Gerais  ==Reset==*/
-
-
 html{
      scroll-behavior: smooth;
  }
- 
+
  body{
       font-family: 'Roboto', sans-serif;
         background-color: #10011D;
@@ -14,16 +12,20 @@ html{
         box-sizing: border-box;
         overflow-x: hidden;
  }
- 
 
  ::selection {
     background-color: #8f75af;
     color: #10011D;
 }
- 
+
 .row{
      margin: 1.25rem;
 }
+/*  END  Configurações Gerais  ==Reset==*/
+
+
+
+
 
 /* ======== header-navbar========== */
 #logo{
@@ -89,6 +91,7 @@ html{
      flex-direction: row;
      justify-content: center;  
 }
+
 .nav-link {
     font-weight: 800;
     font-size: .8rem;
@@ -97,15 +100,12 @@ html{
     text-transform: uppercase;
 }
 
-
-
 a:active{
     background-color: rgba(210, 8, 246, 0.34);
     color: #ffffff !important;
     border-radius: .5rem;
     padding: .3rem;
 }
-
 
 .nav-link:hover {
      color:   #db3eb1;
