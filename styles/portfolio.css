@@ -1,6 +1,6 @@
 
 .portfolio{
-     margin-top: 4em;
+     margin-top: 3em;
  }
  
  .title{
@@ -16,7 +16,16 @@
      background: #6d2db0;
      margin: .13rem auto;
    }
- 
+ .about-me-text{
+    font-size: 18px;
+    margin: 0 10px 20px;
+ }
+ .about-me-text a {
+  color:  rgb(2, 220, 220);
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
 
    /* Projects Portfolio section   */
  
@@ -32,7 +41,7 @@
      flex-wrap: wrap;
      align-items: center;
      justify-content: space-evenly;
-     padding: 6rem;
+     padding: 5rem;
  }
  
  
