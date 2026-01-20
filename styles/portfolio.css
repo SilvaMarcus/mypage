@@ -18,22 +18,23 @@
      margin: .11rem auto;
    }
 .about-me-text-div{
-    margin:3rem;
+    margin:1rem;
 }
  .about-me-text{
-    font-size: 18px;
-   text-align: justify;
-   max-width: 70rem;
+    font-size: 16px;
+   
+   max-width: 65rem;
    margin: auto;
     border: 1px solid #f9f9f936;
-    padding: 1.5em;
+    padding: 0.8em;
     border-radius: 9px;
-    letter-spacing: .5px;
+     word-spacing:normal;
+     letter-spacing: normal;
  }
  
  .about-me-text a {
   color:  rgb(2, 220, 220);
-  font-size: 19px;
+  font-size: 16px;
   font-weight: bold;
   text-decoration: none;
 }
