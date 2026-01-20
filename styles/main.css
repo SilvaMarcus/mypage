@@ -10,24 +10,20 @@
    
  }
  
- .about-me span {
-     color: rgb(2, 220, 220);
- }
- 
  .about-me h3{
-     font-size: 1.8em;
+     font-size: 2em;
      font-weight: 900;
      letter-spacing: 2px;
      margin-bottom: .5em;
  }
  .about-me > p {
-     font-size: .9em;
+     font-size: 1.3em;
      font-weight: 600;
      color: rgb(204, 204, 204);
  }
  
  .conheça{
-     margin-top: 3em;
+     margin-top: 2em;
      margin-left: 25px;
  }
  
@@ -43,8 +39,8 @@
      color: #db3eb1;
      border: 2px solid #db3eb1;
      border-radius: .125rem;
-     padding:  .125rem .563rem;
-     font-size: 1em;
+     padding:  .130rem .563rem;
+     font-size: 1.4em;
      letter-spacing:.25em;
      cursor: pointer;
      font-weight: bold;
@@ -72,8 +68,6 @@
  .home-pag h5 {
      font-size: 1.1em;
  }
-
-
 
  /* Titulo das secoes */
 
