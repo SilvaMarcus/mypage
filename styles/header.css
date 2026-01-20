@@ -23,14 +23,13 @@ html{
 }
 /*  END  Configurações Gerais  ==Reset==*/
 
-
-
-
-
 /* ======== header-navbar========== */
 #logo{
-     width: 2.4rem;
+     width: 2.8rem;
      margin-left: 1.1rem;
+}
+.navbar-brand{
+    border-radius: 1rem;
 }
  /* Remove border menu ham*/
 .navbar-toggler {

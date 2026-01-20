@@ -13,7 +13,7 @@
  .about-me h3{
      font-size: 2em;
      font-weight: 900;
-     letter-spacing: 2px;
+     letter-spacing: px;
      margin-bottom: .5em;
  }
  .about-me > p {
@@ -44,15 +44,15 @@
      letter-spacing:.25em;
      cursor: pointer;
      font-weight: bold;
-     filter: drop-shadow(0 0 10px #db3eb1) drop-shadow(0 0 50px #db3eb1) contrast(1) brightness(1);
+     filter: drop-shadow(0 0 10px #db3eb1de) drop-shadow(0 0 50px #db3eb1ad) contrast(1) brightness(1);
      transition: .5s;
  
    }
    
    .conheça > .button:hover {
      color: rgba(231, 231, 231, 0.617);
-     background-color: #db3eb1;
-     filter: drop-shadow(0 0 1.3rem #db3eb1) contrast(2) brightness(2);
+     background-color: #af298cb0;
+     filter: drop-shadow(0 0 1.3rem #db3eb1bd) contrast(2) brightness(2);
    }
  
  .icone {
