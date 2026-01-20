@@ -40,7 +40,7 @@
      border: 2px solid #db3eb1;
      border-radius: .125rem;
      padding:  .130rem .563rem;
-     font-size: 1.4em;
+     font-size: 1.2em;
      letter-spacing:.25em;
      cursor: pointer;
      font-weight: bold;
@@ -61,7 +61,7 @@
  }
  
  .home-pag  .col-xl-12 {
-     margin-top: 10em;
+     margin-top: 2em;
      text-align: center; 
  }
  
@@ -72,7 +72,7 @@
  /* Titulo das secoes */
 
 .section-title {
-    margin: 5rem;
+    margin: 3rem;
     text-align: center;
 }
 #portfolio-section h2{
@@ -81,8 +81,8 @@
 .section-title:after {
     display: block;
     content: "";
-    margin: 1.3rem  auto;
+    margin: 1.2rem  auto;
     border-bottom: 1px solid #f9f9f936;
-    width: 15%;
+    width: 13%;
   }
 
