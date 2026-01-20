@@ -1,8 +1,45 @@
 
 #contact-section {
      margin-top: 22rem;
+     margin:auto;
 }
 
 .contact-container lottie-player{
      margin: auto;
 }
+
+.contatoIcon {
+  width: 70px;
+  height: auto;
+}
+.contato-links {
+  display: flex;
+  justify-content: center; /* centraliza no eixo horizontal */
+  align-items: center;     /* centraliza no eixo vertical */
+  gap: 30px;  
+  margin-bottom: 3em;             /* espaço entre os ícones */
+}
+
+.contato-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*HOVER*/ 
+
+ 
+.contatoIcon {
+    width: 50px; /* tamanho do ícone */
+    height: 50px;
+    transition: all 0.3s ease; /* animação suave */
+    border-radius: 10px; /* borda arredondada opcional */
+    border: 2px solid transparent; /* borda inicial transparente */
+}
+
+.contatoIcon:hover {
+    border: 2px solid #89CFF0; /* azul bebê */
+    background-color: #E0F7FF; /* fundo leve azul bebê opcional */
+    transform: scale(1.1); /* aumenta levemente o ícone */
+}
+ 
