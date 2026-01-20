@@ -23,6 +23,7 @@
 }
  .about-me-text{
     font-size: 18px;
+    margin: 5rem;
  }
  .about-me-text a {
   color:  rgb(2, 220, 220);
