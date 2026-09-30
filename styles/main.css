@@ -1,17 +1,22 @@
 
 /* ==============  main - About me area======== */
 .main{
-     margin-top: 5em;
+     max-width: 1100px;
+     margin: 6rem auto 0;
+     padding: 0 1.25rem;
  }
  
  .about-me{
-     margin-top: 4em;
-     padding: 1em;
+     margin-top: 3rem;
+     padding: 1.5rem;
+     border-left: 3px solid #db3eb1;
+     border-radius: 0 .75rem .75rem 0;
+     background: linear-gradient(90deg, rgba(219, 62, 177, .12), transparent 70%);
    
  }
  
  .about-me h3{
-     font-size: 2em;
+     font-size: clamp(2rem, 5vw, 3rem);
      font-weight: 900;
      letter-spacing: px;
      margin-bottom: .5em;
@@ -24,7 +29,7 @@
  
  .conheça{
      margin-top: 2em;
-     margin-left: 25px;
+     margin-left: 0;
  }
  
  .conheça > p {
@@ -38,21 +43,25 @@
      text-decoration: none;
      color: #db3eb1;
      border: 2px solid #db3eb1;
-     border-radius: .125rem;
-     padding:  .130rem .563rem;
-     font-size: 1.2em;
-     letter-spacing:.25em;
+     border-radius: .4rem;
+     padding: .65rem 1rem;
+     font-size: 1rem;
+     letter-spacing: .08em;
      cursor: pointer;
      font-weight: bold;
-     filter: drop-shadow(0 0 10px #db3eb1de) drop-shadow(0 0 50px #db3eb1ad) contrast(1) brightness(1);
-     transition: .5s;
+     filter: drop-shadow(0 0 10px #db3eb1a3);
+     transition: background-color .25s ease, color .25s ease, transform .25s ease;
+     display: inline-flex;
+     align-items: center;
+     gap: .5rem;
  
    }
    
    .conheça > .button:hover {
      color: rgba(231, 231, 231, 0.617);
      background-color: #af298cb0;
-     filter: drop-shadow(0 0 1.3rem #db3eb1bd) contrast(2) brightness(2);
+     filter: drop-shadow(0 0 1.3rem #db3eb1bd);
+     transform: translateY(-2px);
    }
  
  .icone {
@@ -73,6 +82,8 @@
 
 .section-title {
     text-align: center;
+    font-weight: 800;
+    letter-spacing: .04em;
 }
 #portfolio-section h2{
     width: 100%;
@@ -82,6 +93,7 @@
     content: "";
     margin: 1.2rem  auto;
     border-bottom: 1px solid #f9f9f936;
-    width: 13%;
+    width: 4rem;
+    border-bottom-color: #db3eb1;
   }
 
