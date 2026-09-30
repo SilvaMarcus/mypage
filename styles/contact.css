@@ -53,4 +53,7 @@
     height: 44px;
   }
 }
+
+/* Atualização visual */
+#contact-section { margin: 7rem auto 0; padding-bottom: 1rem; }.contato-links { display: flex; flex-wrap: wrap; gap: .85rem; justify-content: center; margin: 2rem 0 0; }.contato-links a { align-items: center; background: rgba(255, 255, 255, .04); border: 1px solid rgba(255, 255, 255, .15); border-radius: 50%; color: #eee7f1; display: inline-flex; font-size: 1.2rem; height: 3rem; justify-content: center; text-decoration: none; transition: background-color .2s ease, border-color .2s ease, color .2s ease, transform .2s ease; width: 3rem; }.contato-links a:hover { background: #db3eb1; border-color: #db3eb1; color: #fff; transform: translateY(-3px); }
  

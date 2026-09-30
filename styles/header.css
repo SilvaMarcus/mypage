@@ -112,6 +112,7 @@ a:active{
 .navbar{
      background-color: rgba(16, 1, 29, 0.974);
      border-bottom: 2px solid rgba(176, 13, 179, 0.118); 
+     backdrop-filter: blur(12px);
 }
 .dropdown-menu {
      background-color: rgb(16, 1, 29);
